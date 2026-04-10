@@ -1,0 +1,16 @@
+node_modules/
+lib/
+dist/
+.build/
+*.js.map
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.log
+yarn-error.log
+.idea/
+.vscode/
+*.swp
+*.swo
