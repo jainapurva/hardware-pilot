@@ -1,12 +1,12 @@
 {
-  "name": "agent-aki",
+  "name": "hardware-pilot",
   "version": "0.1.0",
-  "description": "Agent AKI — An AI-powered Arduino IDE that takes you from a prompt to verified, working hardware.",
+  "description": "Hardware Pilot — An AI-powered Arduino IDE that takes you from a prompt to verified, working hardware.",
   "license": "AGPL-3.0-or-later",
   "author": "Apurva Jain <jainapurva@users.noreply.github.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jainapurva/agent-aki.git"
+    "url": "https://github.com/jainapurva/hardware-pilot.git"
   },
   "scripts": {
     "lint": "eslint 'arduino-ide-extension/src/**/*.{ts,tsx}' --max-warnings 0",

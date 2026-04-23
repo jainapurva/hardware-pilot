@@ -1,6 +1,6 @@
-# Contributing to Agent AKI
+# Contributing to Hardware Pilot
 
-Thank you for your interest in contributing to Agent AKI! This guide will help you get started.
+Thank you for your interest in contributing to Hardware Pilot! This guide will help you get started.
 
 ## Table of Contents
 
@@ -28,8 +28,8 @@ Thank you for your interest in contributing to Agent AKI! This guide will help y
 ### Build from Source
 
 ```bash
-git clone https://github.com/jainapurva/agent-aki.git
-cd agent-aki
+git clone https://github.com/jainapurva/hardware-pilot.git
+cd hardware-pilot
 yarn install       # 5-10 min first time
 yarn build         # 3-5 min
 yarn start         # Launch the Electron app
@@ -249,7 +249,7 @@ yarn lint:fix      # Auto-fix what's possible
 Use the [bug report template](.github/ISSUE_TEMPLATE/bug_report.md). Include:
 - Steps to reproduce
 - Expected vs actual behavior
-- Your OS, board, and Agent AKI version
+- Your OS, board, and Hardware Pilot version
 
 ### Feature Requests
 
@@ -260,7 +260,7 @@ Use the [feature request template](.github/ISSUE_TEMPLATE/feature_request.md). I
 
 ### Good First Issues
 
-Look for issues labeled [`good first issue`](https://github.com/jainapurva/agent-aki/labels/good%20first%20issue). These are specifically scoped for new contributors:
+Look for issues labeled [`good first issue`](https://github.com/jainapurva/hardware-pilot/labels/good%20first%20issue). These are specifically scoped for new contributors:
 - Adding a board or component to the knowledge base
 - Improving error messages
 - Adding test cases
@@ -276,6 +276,6 @@ We follow the [Contributor Covenant Code of Conduct](https://www.contributor-cov
 
 ## Questions?
 
-- Open a [Discussion](https://github.com/jainapurva/agent-aki/discussions) for questions
-- File an [Issue](https://github.com/jainapurva/agent-aki/issues) for bugs or feature requests
+- Open a [Discussion](https://github.com/jainapurva/hardware-pilot/discussions) for questions
+- File an [Issue](https://github.com/jainapurva/hardware-pilot/issues) for bugs or feature requests
 - Tag `@jainapurva` for maintainer attention

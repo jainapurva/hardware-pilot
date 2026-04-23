@@ -1,12 +1,12 @@
 # Agent Architecture — AGENTS.md
 
-This document describes the AI agent system inside Agent AKI: how it works, how tools are structured, and how the autonomous workflow operates.
+This document describes the AI agent system inside Hardware Pilot: how it works, how tools are structured, and how the autonomous workflow operates.
 
 ---
 
 ## Overview
 
-Agent AKI embeds an AI agent directly into the Arduino IDE. The agent uses Claude (via the `claude` CLI) as its reasoning engine and has access to 12 tools that let it interact with the IDE, the filesystem, the compiler, the serial port, and the user's camera.
+Hardware Pilot embeds an AI agent directly into the Arduino IDE. The agent uses Claude (via the `claude` CLI) as its reasoning engine and has access to 12 tools that let it interact with the IDE, the filesystem, the compiler, the serial port, and the user's camera.
 
 The agent operates in an **autonomous loop**: it receives a user prompt, makes decisions, calls tools, observes results, and iterates — up to 20 times per task — until the job is done.
 
@@ -65,7 +65,7 @@ The system prompt is dynamically built from live IDE state on every message. It 
 ```
 ┌──────────────────────────────────────────┐
 │ Agent Identity + Rules                    │
-│ - "You are Agent AKI"                    │
+│ - "You are Hardware Pilot"                    │
 │ - "NEVER ask the user to write code"     │
 │ - "NEVER ask the user to pick a board"   │
 │ - 4-phase autonomous workflow            │

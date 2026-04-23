@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest a feature for Agent AKI
+about: Suggest a feature for Hardware Pilot
 title: "[Feature] "
 labels: enhancement
 assignees: ''

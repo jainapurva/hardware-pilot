@@ -42,5 +42,5 @@
   <!-- Camera flash -->
   <rect x="115" cy="120" width="6" height="4" rx="1" fill="#4ECDC4" opacity="0.6" x="116" y="119"/>
   <!-- Text -->
-  <text x="100" y="172" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="white" letter-spacing="2">AKI</text>
+  <text x="100" y="172" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="white" letter-spacing="2">HWP</text>
 </svg>

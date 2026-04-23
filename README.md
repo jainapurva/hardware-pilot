@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- Logo -->
-<img src="docs/assets/logo.svg" alt="Agent AKI" width="140">
+<img src="docs/assets/logo.svg" alt="Hardware Pilot" width="140">
 
-# Agent AKI
+# Hardware Pilot
 
 ### The AI-Powered Arduino IDE
 
 **One prompt. Complete hardware project. Camera-verified wiring.**
 
-[![CI](https://github.com/jainapurva/agent-aki/actions/workflows/ci.yml/badge.svg)](https://github.com/jainapurva/agent-aki/actions/workflows/ci.yml)
+[![CI](https://github.com/jainapurva/hardware-pilot/actions/workflows/ci.yml/badge.svg)](https://github.com/jainapurva/hardware-pilot/actions/workflows/ci.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Arduino IDE](https://img.shields.io/badge/Built%20on-Arduino%20IDE%202.x-00979D?logo=arduino)](https://github.com/arduino/arduino-ide)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -55,7 +55,7 @@ Every Arduino project starts the same way:
 ```
 You: "Build me a temperature sensor with an LCD display"
 
-Agent AKI: Done. Here's what I did:
+Hardware Pilot: Done. Here's what I did:
   ✓ Picked ESP32 (you need WiFi for logging)
   ✓ Selected DHT11 + SSD1306 OLED
   ✓ Validated: no pin conflicts, power OK
@@ -164,8 +164,8 @@ The agent handles **8 steps autonomously**. If compilation fails, it reads the e
 
 ```bash
 # Clone
-git clone https://github.com/jainapurva/agent-aki.git
-cd agent-aki
+git clone https://github.com/jainapurva/hardware-pilot.git
+cd hardware-pilot
 
 # Install dependencies
 yarn install
@@ -179,7 +179,7 @@ yarn start
 
 ### First Project
 
-1. Launch Agent AKI — the AI panel opens on the right (`Ctrl+Shift+A`)
+1. Launch Hardware Pilot — the AI panel opens on the right (`Ctrl+Shift+A`)
 2. Select your board from the toolbar
 3. Type your first prompt:
 
@@ -233,7 +233,7 @@ Build me a temperature and humidity monitor with a display
 
 ## How It Compares
 
-| Feature | ArduinoVision | Embedr | Cirkit Designer | **Agent AKI** |
+| Feature | ArduinoVision | Embedr | Cirkit Designer | **Hardware Pilot** |
 |---------|:------------:|:------:|:---------------:|:-------------:|
 | Full IDE | — | ✅ | — | ✅ |
 | Board auto-selection | — | — | — | ✅ |
@@ -324,7 +324,7 @@ We'd love your help! See [**CONTRIBUTING.md**](CONTRIBUTING.md) for how to get s
 **Easiest ways to contribute:**
 - Add a board to [`boards.json`](arduino-ide-extension/src/node/agent/knowledge/data/boards.json)
 - Add a component to [`components.json`](arduino-ide-extension/src/node/agent/knowledge/data/components.json)
-- Pick up a [`good first issue`](https://github.com/jainapurva/agent-aki/labels/good%20first%20issue)
+- Pick up a [`good first issue`](https://github.com/jainapurva/hardware-pilot/labels/good%20first%20issue)
 
 See our [Agent Architecture](AGENTS.md) for technical deep-dive.
 
@@ -344,6 +344,6 @@ Copyright (C) 2026 [Apurva Jain](https://github.com/jainapurva) and contributors
 
 **Built with frustration, caffeine, and too many wrong wiring diagrams.**
 
-[GitHub](https://github.com/jainapurva/agent-aki) · [Issues](https://github.com/jainapurva/agent-aki/issues) · [Contributing](CONTRIBUTING.md) · [Agent Architecture](AGENTS.md)
+[GitHub](https://github.com/jainapurva/hardware-pilot) · [Issues](https://github.com/jainapurva/hardware-pilot/issues) · [Contributing](CONTRIBUTING.md) · [Agent Architecture](AGENTS.md)
 
 </div>
